@@ -137,7 +137,7 @@ text-align: center;
 }
 .a{
     color: black;
-    background-color:green;
+    background-color:yellow;
     margin-right: 1px;
     padding: 5px;
     
@@ -148,7 +148,7 @@ text-align: center;
     color:black;
 }
 h1,h2,h3,h4{
-    color: green;
+    color:yellow;
 }
 
 
@@ -171,6 +171,26 @@ footer{
     width: 100%
 } 
 foood{
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+    background:white;
+    color: rgba(12, 12, 9, 0.7);
+}
+
+#yuo{
+    text-align: center;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: brown;
+    border-radius: 6%;
+    margin: 3%;
+    color:black;
+    
+}
+#k{
+    font-size: 30px;
+    color:black;
+}
+#k :hover{
     box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
     background:white;
     color: rgba(12, 12, 9, 0.7);
