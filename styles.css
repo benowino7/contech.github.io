@@ -3,12 +3,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  opacity: 0.9;
+  z-index: -1;
 }
 
 .js {
   padding-left: 10px 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin-right: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
   display: flex;
   justify-content: space-around;
   width: 1800px;
@@ -59,17 +62,21 @@ p {
 }
 
 .img {
-  box-shadow: 2px 2px 0 grey;
-  width: 40%;
-  height: 480px;
-  float: left;
+  box-shadow: 2px 2px 2px 3px grey;
+  width: 500px;
+  height: 500px;
+  margin-left: 20%;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 .ding {
-  box-shadow: 2px 2px 0 grey;
-  width: 40%;
-  height: 480px;
-  float: right;
+  box-shadow: 2px 2px 2px 3px grey;
+  width: 500px;
+  height: 500px;
+  margin-left: 20%;
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 /* .content{
@@ -113,10 +120,47 @@ th {
   z-index: -1;
 }
 
+#first {
+  background-color: brown;
+  border-radius: 6%;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 2%;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#second {
+  background-color: brown;
+  border-radius: 6%;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 2%;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+
 #get {
-  background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-  background-size: cover;
-  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#get :hover {
+  box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
+  background: white;
+  color: rgba(12, 12, 9, 0.7);
+}
+
+#third :hover {
+  box-shadow: 0 0 10px rgba(221, 197, 197, 0.1), inset 0 0 1px rgba(194, 106, 106, 0.6);
+  background: yellow;
+  color: rgba(12, 12, 9, 0.7);
 }
 
 .ping {
@@ -170,15 +214,21 @@ table {
 }
 
 #gr {
-  height: 500px;
-  width: 40%;
-  float: right;
+  height: 300px;
+  width: 300px;
 }
 
 #third {
   text-align: center;
-  align-items: center;
-  align-self: center;
+  background-color: brown;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-left: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+
 }
 
 button {
@@ -204,4 +254,15 @@ h3 {
 .bingo p {
   font-size: 30px;
   color: blanchedalmond;
+}
+
+.content {
+  margin-top: 1%;
+}
+.a {
+  color: black;
+  background-color: rgb(33, 24, 151);
+  margin-right:99%;
+  padding: 5px;
+
 }
