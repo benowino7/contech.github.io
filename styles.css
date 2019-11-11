@@ -7,6 +7,37 @@ html {
   z-index: -1;
 }
 
+@media screen and (min-width:480px) {
+  #get {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    height: auto;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bingo {
+    height: auto;
+
+  }
+
+  html {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}
+
 .js {
   padding-left: 10px 0;
   margin-right: 0%;
@@ -41,8 +72,8 @@ html {
 
 .js>ul>li>a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(35, 221, 81, 0.678);
-  color: rgba(164, 13, 235, 0.7);
+  background: brown;
+  color: black;
 }
 
 body {
@@ -149,6 +180,8 @@ th {
   display: flex;
   flex-direction: row;
   position: relative;
+  text-align: center;
+  align-content: center;
 }
 
 #get :hover {
@@ -159,7 +192,7 @@ th {
 
 #third :hover {
   box-shadow: 0 0 10px rgba(221, 197, 197, 0.1), inset 0 0 1px rgba(194, 106, 106, 0.6);
-  background: yellow;
+  background: white;
   color: rgba(12, 12, 9, 0.7);
 }
 
@@ -197,7 +230,7 @@ th {
 
 .ping>ul>li>a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  background: rgba(221, 35, 128, 0.678);
+  background: brown;
   color: rgba(0, 35, 122, 0.7);
 }
 
@@ -259,10 +292,11 @@ h3 {
 .content {
   margin-top: 1%;
 }
+
 .a {
   color: black;
   background-color: rgb(33, 24, 151);
-  margin-right:99%;
+  margin-right: 99%;
   padding: 5px;
 
 }

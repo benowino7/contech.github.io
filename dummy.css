@@ -5,6 +5,43 @@ html {
     background-attachment: fixed;
 }
 
+@media screen and (min-width:480px) {
+    #overlay {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #out {
+        height: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    html {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+
 i {
     padding: 10px;
     margin-left: 100px;
@@ -14,7 +51,7 @@ i {
 
 i:hover {
     box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
-    background: rgba(46, 192, 9, 0.678);
+    background: brown;
     color: rgba(12, 12, 9, 0.7);
 }
 
@@ -81,7 +118,7 @@ nav>ul>li>a {
 
 nav>ul>li>a:hover {
     box-shadow: 0 0 10px rgba(17, 17, 17, 0.1), inset 0 0 1px rgba(100, 93, 93, 0.6);
-    background: rgba(46, 192, 9, 0.678);
+    background: brown;
     color: rgba(12, 12, 9, 0.7);
 }
 
@@ -150,7 +187,7 @@ nav>ul>li>a:hover {
 
 .a {
     color: black;
-    background-color: yellow;
+    background-color:brown;
     margin-right: 1px;
     padding: 5px;
 
@@ -166,7 +203,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: yellow;
+    color: black;
 }
 
 
@@ -205,7 +242,7 @@ footer {
     border-radius: 6%;
     margin: 3%;
     color: black;
-    list-style:none;
+    list-style: none;
 
 }
 
@@ -221,3 +258,45 @@ footer {
     background: white;
     color: rgba(12, 12, 9, 0.7);
 }
+
+.log-in{
+    width: 400px;
+    box-shadow: 0px 3px 3px 3px grey;
+    background-color:brown;
+    padding: 20px;
+    margin:-3% auto 0;
+    text-align: center;
+    border-radius: 12%;
+    overflow: hidden;
+}
+.log-in> h1{
+    color: black;
+    margin-bottom: 30px;
+
+}
+.input-box{
+    border-radius: 20px;
+    padding:10px;
+    margin: 10px 0;
+    width:80%;
+    border: 1px solid black;
+    outline: black;
+}
+button{
+    color: rgb(22, 21, 21);
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+.sign-in-button{
+    background-color: aqua;
+
+}
+.twitter-btn{
+    background-color: aqua;
+}
+
+
