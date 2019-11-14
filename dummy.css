@@ -1,50 +1,14 @@
 html {
-    background-image: url('https://www.canva.com/photos/MADAwvWh8NM-blog-logo/?utm_medium=partner&utm_source=PEXELS&utm_term=logo&utm_content=MADAwvWh8NM&utm_campaign=search');
+    background-image: url('https://images.pexels.com/photos/3052751/pexels-photo-3052751.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-@media screen and (min-width:480px) {
-    #overlay {
-        display: flex;
-        flex-direction: column;
-    }
 
-    nav {
-        height: auto;
-    }
-
-    footer {
-        height: auto;
-    }
-
-    .food {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #out {
-        height: auto;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-    html {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-
-}
 
 i {
-    padding: 10px;
-    margin-left: 100px;
+    padding-right: 10px;
     display: flex;
     justify-content: space space-around;
 }
@@ -298,5 +262,68 @@ button{
 .twitter-btn{
     background-color: aqua;
 }
+@media screen and (min-width:480px) {
+    #overlay {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
 
+
+    nav {
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .food {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #out {
+        height: auto;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    
+    }
+
+    /*html {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        
+    }*/
+    #one{
+        height: auto;
+        
+    }
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2px;
+}
+.log-in{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2px;
+}
+.ftg{
+    height: auto;
+    
+}
+footer{
+    width:auto;
+
+}
+}
 
